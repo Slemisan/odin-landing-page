@@ -1,33 +1,81 @@
-.flex-containerheader {
-    display: flex;
+body {
     background-color: #1F2937;
-    font-size: 18px;
-    
+    max-width: 1000px;
+    margin: auto;
 }
 
-.flex-containerlogo {
-    flex: 1;
-    justify-content: flex-start;
-    color: #E5E7EB;
-    margin: 10px;
-}
-
-.flex-containerheaderlinks {
-    display: contents;
-}
-
-.flex-containerheaderlinks div {
+.flexbox-header-container {
+    display: flex;
+    color: #F9FAF8;
     flex-direction: row;
-    margin: 10px;
-    font-size: 18px;
-    justify-content: flex-end;
-    color: #E5E7EB;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+.flexbox-header-items {
+    margin: 20px;
+}
 
+.flexbox-filler {
+    flex-grow: 1;
+}
 
+.flexbox-information-container {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}    
 
+.flexbox-title {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #1F2937;
+}
 
+.flexbox-image-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
 
+.flexbox-image-subtext {
+    margin: 40px;
+    width: 120px;
+}
 
+.flexbox-image-items {
+    border: 3px solid #3882F6 ;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 10px;
+}
+
+.flexbox-subtext-items {
+    color: grey;
+    font-size: 11px;
+    text-align: center;
+}
+
+.flexbox-quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E7EB;
+}
+
+.flexbox-quote-text {
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+    font-size: 26px;
+    color: #1F2937;
+    font-style: italic
+}
+
+.flexbox-quote-author {
+    margin-bottom: 50px;
+    margin-right: 140px;
+    text-align: right;
+}
