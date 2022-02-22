@@ -1,0 +1,33 @@
+.flex-containerheader {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    
+}
+
+.flex-containerlogo {
+    flex: 1;
+    justify-content: flex-start;
+    color: #E5E7EB;
+    margin: 10px;
+}
+
+.flex-containerheaderlinks {
+    display: contents;
+}
+
+.flex-containerheaderlinks div {
+    flex-direction: row;
+    margin: 10px;
+    font-size: 18px;
+    justify-content: flex-end;
+    color: #E5E7EB;
+
+}
+
+
+
+
+
+
+
